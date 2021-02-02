@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Houseplants.Models.Plant>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Krukväxter</h1>
+@if (User.Identity.IsAuthenticated)
+{
+    <p>
+        <a asp-action="Create">Lägg till ny</a>
+    </p>
+}
+
+<div id="content"></div>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.0/umd/react.development.js"></script>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.0/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="module" src="@Url.Content("~/js/index.jsx")"></script>
+
+
+@*<div class="row justify-content-center">
+    <div class="col-auto">
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PlantName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Latin)
+                    </th>
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PlantName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Latin)
+                        </td>
+                        <td>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a asp-action="Details" asp-route-id="@item.PlantId">Detaljer </a>
+                                <a asp-action="Edit" asp-route-id="@item.PlantId">Ändra </a>
+                                <a asp-action="Delete" asp-route-id="@item.PlantId">Radera</a>
+                            }
+                            else
+                            {
+                                <a asp-action="Details" asp-route-id="@item.PlantId">Detaljer</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>*@
+

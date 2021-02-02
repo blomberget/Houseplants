@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Houseplants.Controllers.FamiliesController">
+    <Position X="0.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBACAAAAAAAAAAAEAAEECAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\FamiliesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Houseplants.Controllers.PlantsController">
+    <Position X="4.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBACAAAAAAAAAAAEAAEACAAEABAAAAAA=</HashCode>
+      <FileName>Controllers\PlantsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Houseplants.Models.Care">
+    <Position X="0.75" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAIAAAgAAAAAAAAAAAAAAAAAAhAAAAA=</HashCode>
+      <FileName>Models\Care.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Houseplants.Models.Family">
+    <Position X="3.75" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Family.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Houseplants.Models.HouseplantsContext">
+    <Position X="0.75" Y="7" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AACQAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Models\HouseplantsContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Houseplants.Models.Plant">
+    <Position X="6.75" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AECAAAAAQAQAAAAAAAAAAQAAAAAAAAABAAABAAAABAA=</HashCode>
+      <FileName>Models\Plant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

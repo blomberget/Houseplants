@@ -1,0 +1,23 @@
+﻿@model Houseplants.Models.Family
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="Familjer">
+    <h1>@Model.FamilyName</h1>
+    <h2>@Model.FamilyLatin</h2>
+</div>
+<br />
+<div>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a asp-action="Edit" asp-route-id="@Model.FamilyId">Edit</a> <p>|</p>
+        <a asp-action="Index">Tillbaka till växtlista</a>
+    }
+    else
+    {
+        <a asp-controller="Plants" asp-action="Index">Tillbaka till växtlista</a>
+
+    }
+</div>

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Houseplants.Models.Family>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Växtfamiljer</h1>
+
+<div id="familyList">
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.0/umd/react.development.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.0/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="@Url.Content("~/js/Components/familyList.jsx")"></script>
+</div>
+
+@*@if (User.Identity.IsAuthenticated)
+    {
+        <a asp-action="Create">Lägg ny växtfamilj</a>
+    }
+
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FamilyName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FamilyLatin)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FamilyName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FamilyLatin)
+                            </td>
+                            <td>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <a asp-action="Edit" asp-route-id="@item.FamilyId">Ändra </a>
+                                    <a asp-action="Details" asp-route-id="@item.FamilyId">Detaljer </a>
+                                    <a asp-action="Delete" asp-route-id="@item.FamilyId">Radera</a>
+                                }
+                                else
+                                {
+                                    <a asp-action="Details" asp-route-id="@item.FamilyId">Detaljer </a>
+                                }
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>*@

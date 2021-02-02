@@ -1,0 +1,353 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 1em;
+    line-height: 1.4em;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+nav {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #363537;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+
+nav {
+    color: #fff;
+    background-color: #C3DAC3;
+    border-color: #1861ac;
+    padding: 3em;
+}
+
+.navbar-custom {
+    background-color: lightgreen;
+} 
+
+
+.Titel {
+    position: absolute;
+    left: 2em;
+    top: 1em;
+    font-size: 200%;
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+
+h1 {
+    padding-top: 1em;
+    font-size: 400%;
+    font-weight: 100;
+}
+
+h2 {
+    padding-top: 0.5em;
+    font-size: 180%;
+    font-weight: lighter;
+    margin-bottom: 0.3em;
+}
+
+h3 {
+    font-size: 120%;
+    font-weight: lighter;
+    margin-bottom: 0.4em;
+}
+
+
+h4 {
+    font-size: 150%;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+.Care {
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+svg {
+    margin-right: 1em;
+    margin-top: -1em;
+    font-size: 110%;
+}
+
+.CareBox {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+    .CareBox p {
+        text-align: left;
+    }
+
+
+.lista {
+    margin-top: 3em;
+    text-align: center;
+}
+
+select {
+    margin-top: 1em;
+}
+
+
+.table {
+    display: inline-block;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr, th {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: solid;
+    border-color: silver;
+    border-width: 1px 0;
+}
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+
+.Admin {
+    margin-right: 1em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 90%;
+}
+
+.Lista {
+    position: relative;
+}
+
+plants {
+    border: none;
+}
+
+
+.select {
+    width: 150px;
+}
+
+/*ul {
+    margin-top: 1em;
+    list-style-position: outside;
+}
+
+li {
+    padding-top: 2em;
+}*/
+
+.button {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    border: 0px;
+    font-size: 80%;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0px;
+    color: #FFFFFF;
+    background-color: #007A45;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+    .button:hover {
+        background-color: #024F2A;
+    }
+
+
+
+dt, dd {
+    display: block;
+    margin-top: 20px;
+    text-align: left;
+}
+
+dt {
+    clear: both;
+}
+
+
+/* REACT */
+
+
+
+
+
+
+.search-outer {
+}
+
+.searchform {
+    position: relative;
+}
+
+#s {
+    font-size: 1.3rem;
+    padding: 0.4em;
+    font-family: 'Oxygen', sans-serif;
+
+    border-style: solid;
+    border-width: thin;
+    border-radius: .3em;
+    margin-bottom: 1em;
+}
+
+.plantList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-content: space-between;
+    list-style: none;
+}
+
+#displayPlant {
+    background: #9DB195;
+    margin: .8em;
+    padding: 2em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+
+
+.title {
+    color: white;
+    font-size: 120%;
+}
+
+a.title:hover {
+    color: white;
+}
+
+.link {
+    color: white;
+}
+
+.undertitle {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+
+
+
